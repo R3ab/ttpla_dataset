@@ -74,7 +74,7 @@ python eval.py --trained_model=weights/yolact_base_54_800000.pth
 
 ```
 
-##Evaluation:
+## Evaluation:
 
 |Image Size| Backbone|configs| weights|
 |:-------------:| ------------- |:-------------:| -----:|
@@ -85,7 +85,7 @@ python eval.py --trained_model=weights/yolact_base_54_800000.pth
 |550 x 550 |Resnet101| [config_img550_resnet101.py](/img640/resnet50)| [yolact_img550_399_45100_resnet101_b8.pth](/img550/resnet101) |
 |700 x 700 |Resnet101| [config_img700_resnet101.py](/img640/resnet50)| [yolact_img700_399_45100_resnet101_b8.pth](/img700/resne101)|
 
-##Results:
+## Results:
 
 Average Precision for Different Deep Learning Models on TTPLA is reported in the following table
 ![results](fig/result.jpg)
@@ -97,7 +97,7 @@ Average Precision for Different Deep Learning Models on TTPLA is reported in the
 
 
 
-##Citation:
+## Citation:
 ```
 @inproceedings{ttpla-accv2020,
   author    = {Rabab Abdelfattah, Xiaofeng Wang, Song Wang},
@@ -106,6 +106,5 @@ Average Precision for Different Deep Learning Models on TTPLA is reported in the
   year      = {2020},
 }
 ```
-##Contact:
-
+## Contact:
 For questions about our paper or code, please contact [Rabab Abdelfattah](rabab@email.sc.edu).
