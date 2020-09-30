@@ -88,9 +88,9 @@ python eval.py --trained_model=weights/yolact_base_54_800000.pth
 ##Results:
 Average Precision for Different Deep Learning Models on TTPLA is reported in the following table
 ![results](fig/result.jpg)
-![Classification falseness](fig/fig1_s50.jpg)
-![Detection falseness](fig/fig3.png)
-![Segmentation falseness](fig/fig4.png)
+![Classification falseness](fig/fig1_s40.jpg)
+![Detection falseness](fig/fig3_s40.png)
+![Segmentation falseness](fig/fig4_s40.png)
 
 
 
