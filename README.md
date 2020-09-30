@@ -86,8 +86,11 @@ python eval.py --trained_model=weights/yolact_base_54_800000.pth
 |700 x 700 |Resnet101| [config_img700_resnet101.py](/img640/resnet50)| [yolact_img700_399_45100_resnet101_b8.pth](/img700/resne101)|
 
 ##Results:
+
 Average Precision for Different Deep Learning Models on TTPLA is reported in the following table
 ![results](fig/result.jpg)
+
+
 ![Classification falseness](fig/fig1_s20.jpg)
 ![Detection falseness](fig/fig3_s20.jpg)
 ![Segmentation falseness](fig/fig4_s20.jpg)
