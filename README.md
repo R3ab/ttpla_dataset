@@ -107,4 +107,5 @@ Average Precision for Different Deep Learning Models on TTPLA is reported in the
 }
 ```
 ##Contact:
+
 For questions about our paper or code, please contact [Rabab Abdelfattah](rabab@email.sc.edu).
