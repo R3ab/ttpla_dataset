@@ -5,7 +5,7 @@ Transmission Towers (TTs) and Powers Lines (PLs). This is the official repo of p
 and Segmentation of Transmission Towers and
 Power Lines](camera_ready_final.pdf). 
 
-![Screenshot](fig/0307.jpg)
+![Screenshot](fig/69_00806_80.jpg)
 
 The repository includes:
 * original images of TTPLA.
