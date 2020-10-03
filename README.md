@@ -82,7 +82,7 @@ python eval.py --trained_model=weights/yolact_base_54_800000.pth
 |550 x 550 |Resnet50 | [config_img550_resnet50.py](/img640/resnet50)   | [yolact_img550_399_30000_resnet50.pth](/img550/resnet50) |
 | 700 x 700|Resnet50 | [config_img700_resnet50.py](/img640/resnet50)  | [yolact_img700_399_30000_resnet50.pth](/img7000/resnet50) |
 |640 x 360 |Resnet101| [config_img640_resnet101_aspect.py](/img640/resnet50)| [yolact_img640_secondval_399_45100_resnet101.pth](/img6400/resnet50) |
-|550 x 550 |Resnet101| [config_img550_resnet101.py](/img640/resnet50)| [yolact_img550_399_45100_resnet101_b8.pth](/img550/resnet101) |
+|550 x 550 |Resnet101| [config_img550_resnet101.py](/img640/resnet50)| [yolact_img550_399_45100_resnet101_b8.pth](https://drive.google.com/file/d/1zP4usEnaAUeGuqq179iLocy2J5TO4eJH/view?usp=sharing) |
 |700 x 700 |Resnet101| [config_img700_resnet101.py](/img640/resnet50)| [yolact_img700_399_45100_resnet101_b8.pth](/img700/resne101)|
 
 ## Results:
