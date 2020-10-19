@@ -34,10 +34,11 @@ The repository includes:
   * The generated json from step 5 in `Prepration data`, rename to `train_coco_700x700`, `2_test_json700`, `2_val_json700` and put them into `yolact700/data/` if you would like to use our config file directly or you can use any name and modify the pathes into config file.
   
 ## Train Model:
-For train image for example with size 700x700 
+For train image for example with size 700x700, 
 ```
 python train.py --config=yolact_img700_val_config --batch_size=8 --resume=weights/yolact_img550_108_12253_interrupt.pth
 ```
+For evaluate,
 ```
 python eval.py --config=yolact_img550_secondtest_config --mask_proto_debug --trained_model=weights/weights_img550_resnet50/yolact_img550_400_30061_resnet50_sep7_2217.pth --fast_nms=false
 
