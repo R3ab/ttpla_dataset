@@ -1,7 +1,7 @@
 # TTPLA: An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Lines
 
 TTPLA is a public dataset which is a collection of aerial images on
-Transmission Towers (TTs) and Powers Lines (PLs). This is the official repo of paper [TTPLA: An Aerial-Image Dataset for Detection
+Transmission Towers (TTs) and Powers Lines (PLs). This is the official repository of paper [TTPLA: An Aerial-Image Dataset for Detection
 and Segmentation of Transmission Towers and
 Power Lines](camera_ready_final.pdf). 
 
