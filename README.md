@@ -66,7 +66,7 @@ cd yolact
           pip install cython
           pip install opencv-python pillow pycocotools matplotlib
           ```
- # Tips to use our files directly
+ ### Tips to use our files directly
   * Rename `yolact` folder to `yolact700`. This is for example for image 700x700, you can replace 700 to 550 or 640 according to your choice for image size.
   * In setp 1 in `Prepration data`, rename `sized_data` folder name to `data_700x700` and upload in `yolact700/data/data_700x700`. 
   * Use the suitable configuration from next table according to image size and backbone. Rename the picked config file to config.py and insert in `yolact700/data/`.
