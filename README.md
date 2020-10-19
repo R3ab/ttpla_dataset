@@ -38,7 +38,7 @@ For train image for example with size 700x700,
 ```
 python train.py --config=yolact_img700_val_config --batch_size=8 --resume=weights/yolact_img550_108_12253_interrupt.pth
 ```
-For evaluate,
+For evaluation,
 ```
 python eval.py --config=yolact_img550_secondtest_config --mask_proto_debug --trained_model=weights/weights_img550_resnet50/yolact_img550_400_30061_resnet50_sep7_2217.pth --fast_nms=false
 
