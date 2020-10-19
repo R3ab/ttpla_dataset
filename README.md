@@ -8,30 +8,9 @@ Power Lines](camera_ready_final.pdf).
 ![Screenshot](fig/69_00806_80.jpg)
 
 The repository includes:
-* original images of TTPLA.
-* pixel level annotation in COCO format.
-* text files contain a list of images names after splitting to train, validate, and test.
-* weights of training model using two different backbones and three different image sizes.
-
-### Directors:
-```
-* `data_original_size/` contains the original images and annotations with the original size
-* `data_700x700/` : contains the images and annotations with the 700x700 size.
-* `data_550x550/` : contains the images and annotations with the 550x550 size.
-* `data_640x360/` : contains the images and annotations with the 640x360 size.
-```
-### Splitting:
-```
-* `train.txt`: it contains the names of the train images.
-* `val.txt`: it contains the names of the validation images.
-* `test.txt`: it contains the names of the test images.
-```
-### Scripts:
-```
-* `resize_image_and_annotation-final.py` it is used to resize the images to target size.
-* `remove_void.py` it is used to remove the void label if needed from data.
-* `split_data.py` it is used to initially split the data. Then, the data is further manually filtered.
-```
+* The original images of TTPLA dataset with pixel level annotation in COCO format [here]().
+* Splitting text files contain a list of images names after splitting to train.txt, validate.txt, and test.txt.
+* Weights of training models based on two different backbones and three different image sizes.
 
 ## Preparation data:
 
