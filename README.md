@@ -36,7 +36,7 @@ The repository includes:
 
 ## Preparation data:
 
-1. Modify `resize_image_and_annotation-final.py` to use the target image dimension. Then, call the script using
+1. Modify `resize_image_and_annotation-final.py` to use the target image dimension (line 10). Then, call the script using
 `python resize_image_and_annotation-final.py -t <images_path>`
 
 2. Then call `remove_void.py` to remove `void` label if you would like to remove it.
