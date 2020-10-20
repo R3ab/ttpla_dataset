@@ -60,13 +60,6 @@ python eval.py --config=yolact_img550_secondtest_config --mask_proto_debug --tra
 Average Precision for Different Deep Learning Models on TTPLA is reported in the following table
 ![results](fig/result.jpg)
 
-
-![Classification falseness](fig/mo_fig1.png)
-![Detection falseness](fig/mo_fig3.png)
-![Segmentation falseness](fig/mo_fig4.png)
-
-
-
 ## Citation:
 ```
 @inproceedings{ttpla-accv2020,
