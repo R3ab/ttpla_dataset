@@ -61,9 +61,9 @@ Average Precision for Different Deep Learning Models on TTPLA is reported in the
 ![results](fig/result.jpg)
 
 
-![Classification falseness](fig/mod_fig1.jpg)
-![Detection falseness](fig/mod_fig3.jpg)
-![Segmentation falseness](fig/mod_fig4.jpg)
+![Classification falseness](fig/mod_fig1.png)
+![Detection falseness](fig/mod_fig3.png)
+![Segmentation falseness](fig/mod_fig4.png)
 
 
 
