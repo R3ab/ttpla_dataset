@@ -5,7 +5,7 @@ Transmission Towers (TTs) and Powers Lines (PLs). This is the official repositor
 and Segmentation of Transmission Towers and
 Power Lines](https://arxiv.org/pdf/2010.10032.pdf). 
 
-![Screenshot](fig/69_00806_80.jpg)
+![Screenshot](ttpla_samples/69_00806_80.jpg)
 
 The repository includes:
 * The original images of TTPLA dataset with pixel level annotation in COCO format. [The dataset images here](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1AycMYoqSydB73YA0-55sKfRxWF7jMqLU).
@@ -58,7 +58,8 @@ python eval.py --config=yolact_img550_secondtest_config --mask_proto_debug --tra
 ## Results:
 
 Average Precision for Different Deep Learning Models on TTPLA is reported in the following table
-![results](fig/result.jpg)
+
+![results](ttpla_samples/result.jpg)
 
 ## Citation:
 ```
