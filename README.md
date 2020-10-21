@@ -8,7 +8,7 @@ Power Lines](https://arxiv.org/pdf/2010.10032.pdf).
 ![Screenshot](fig/69_00806_80.jpg)
 
 The repository includes:
-* The original images of TTPLA dataset with pixel level annotation in COCO format [here](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1AycMYoqSydB73YA0-55sKfRxWF7jMqLU).
+* The original images of TTPLA dataset with pixel level annotation in COCO format. [The dataset images here](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1AycMYoqSydB73YA0-55sKfRxWF7jMqLU).
 * Splitting text files contain a list of images names after splitting to train.txt, validate.txt, and test.txt.
 * Weights of training models based on two different backbones and three different image sizes.
 
