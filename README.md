@@ -63,11 +63,11 @@ Average Precision for Different Deep Learning Models on TTPLA is reported in the
 
 ## Citation:
 ```
-@inproceedings{ttpla-accv2020,
-  author    = {Rabab Abdelfattah, Xiaofeng Wang, Song Wang},
-  title     = {TTPLA: An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Linesn},
-  booktitle = {ACCV},
-  year      = {2020},
+@inproceedings{abdelfattah2020ttpla,
+  title={TTPLA: An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Lines},
+  author={Abdelfattah, Rabab and Wang, Xiaofeng and Wang, Song},
+  booktitle={Proceedings of the Asian Conference on Computer Vision},
+  year={2020}
 }
 ```
 ## Contact:
