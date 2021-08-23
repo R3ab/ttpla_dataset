@@ -47,8 +47,8 @@ python eval.py --config=yolact_img550_secondtest_config --mask_proto_debug --tra
 ## Evaluation:
 
 |Image Size| Backbone|configs| weights|
-|:-------------:| ------------- |:-------------:| -----:|
-|640 x 360 |Resnet50 | [config_img640_resnet50_aspect.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1ocoYiTDFBcdI8Es8dZlMbsbFGkaLKw98)| [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1IDfQlBJ2VAIpyaOSUs2Ecmf_rsl8nSdc)|
+|:-------------:| ------------- |:-------------:| -----:|      
+|640 x 360 |Resnet50 | [config_img640_resnet50_aspect.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1ocoYiTDFBcdI8Es8dZlMbsbFGkaLKw98)| [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
 |550 x 550 |Resnet50 | [config_img550_resnet50.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1buxmIli7cxiFwJ7krOCTOojwgDeR2AUM)   | [yolact_img550_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1mKYRP7LOVgrFN5Vsug-tyI6XDEZ8c62k) |
 |700 x 700|Resnet50 | [config_img700_resnet50.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1NCe8W7QKlDhDF-nrH2iLAr0kiHdC6T7w)  | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
 |640 x 360 |Resnet101| [config_img640_resnet101_aspect.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1sq3WSdH-wqRLbIaZO9g4uBYA6WQec3uC)| [yolact_img640_secondval_399_45100_resnet101.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1IDfQlBJ2VAIpyaOSUs2Ecmf_rsl8nSdc) |
