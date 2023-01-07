@@ -7,7 +7,6 @@ import os
 
 output_folder = '.'
 sized_folder = output_folder+'/'+'sized_data'
-dim=(700,700)
 
 for p in [output_folder,sized_folder]:
 	if not os.path.exists(p):
@@ -15,7 +14,9 @@ for p in [output_folder,sized_folder]:
 
 ap = argparse.ArgumentParser()
 ap.add_argument('-t', '--path_imgs_annotation', required=True, help = 'path to imgs with annotations')
+ap.add_argument('-d', '--dim', type=int, default=700, help='Target image size (default: 700)')
 args = ap.parse_args()
+dim = (args.dim,args.dim)
 
 images_names = [img for img in os.listdir(args.path_imgs_annotation) if img.endswith(".jpg")]
 
@@ -30,7 +31,6 @@ for imgname in images_names:
 	img = cv2.imread(imgpath)
 	h,w = img.shape[0],img.shape[1]
 	
-	#img = cv2.resize(img, (dim[1],dim[0]), interpolation = cv2.INTER_AREA)
 	if w != dim[0] or h!= dim[1]:
 		print(annotation_path,w,h,' Resizing')
 		nresize+=1
